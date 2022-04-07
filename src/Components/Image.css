@@ -1,0 +1,7 @@
+
+img.MyProfilePic{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+border: 10px solid black;
+}

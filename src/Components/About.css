@@ -1,0 +1,106 @@
+
+.myInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10rem 0px;
+  flex-wrap: wrap-reverse;
+  
+}
+.myInfo h3 {
+  width: 30rem;
+  padding: 4rem;
+  color: darkcyan;
+
+font-family: 'Anton', sans-serif;
+  margin-right: 1rem;
+}
+.credentials {
+  display: flex;
+  flex-direction: column;
+  
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.MyInformation h2{
+  color: darkorchid;
+  font-weight: bold;
+  text-shadow: none;
+  margin: 10px 0px;
+}
+.Education{
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 20px rebeccapurple;
+  
+}
+.Skillings h1{
+  color: white;
+  text-shadow: 0px 0px 10px red;
+}
+.Skillings {
+  
+  margin: 5rem 0px;
+  padding: 20px;
+}
+.MyInformation{
+  padding: 20px;
+ border-top: 6px solid yellow; 
+ border-bottom: 6px solid red; 
+  background-color:black;
+  width: 20rem;
+  border-radius: 10px;
+  
+}
+.MyInformation h3{
+  color: white;
+  text-shadow: 0px 0px 10px red;
+}
+.MyInformation span{
+  color: white;
+}
+.MySkills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+  text-align: center;
+
+  margin: 50px 2rem 0px 2rem;
+}
+.MySkillsWrap {
+  margin: 2rem 0px 0px 0px;
+}
+.skills {
+  border: 2px solid rebeccapurple;
+  width: 50%;
+  height: 10px;
+  border-radius: 15px;
+  box-shadow: inset 0px 4px 18px black;
+}
+
+.skills div {
+  height: 100%;
+  border-radius: 15px;
+  background-color: red;
+}
+h1.skills_head {
+  text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  .myInfo h3 {
+    padding: 4rem 0rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .myInfo h3 {
+    padding-left: 2rem;
+  }
+}

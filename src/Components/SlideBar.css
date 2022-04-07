@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  border: 2px solid red;
+  justify-content: space-evenly;
+  
+}
+.navbar li {
+  list-style: none;
+  border: 2px solid black;
+  padding: 10px;
+}
+.navbar li a{
+  text-decoration: none;
+}
+.burger{
+    position: fixed;
+    top: 0.3rem;
+    right: 2rem;
+}
+
+.burger div{  
+    height: 5px;
+    width: 2.1rem;
+    margin-top: 8px;
+    background-color: black;
+}
+
+@media screen and (max-width: 750px){
+    .navbar{
+        flex-direction: column;
+        min-height: 100vh;
+        display: none;
+    }
+}

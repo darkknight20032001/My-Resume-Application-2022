@@ -1,0 +1,35 @@
+ul.ProjectLists {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin: 3rem 0px;
+}
+div.ProjectLists {
+  border: 2px solid black;
+  text-align: center;
+  height: 20rem;
+  width: 15rem;
+  background-color: black;
+  color: white;
+  padding:10px;
+  text-shadow: 0px 0px 40px yellow;
+}
+ul.ProjectLists li {
+  list-style: none;
+  border: 2px solid black;
+  padding: 10px;
+}
+.AllProjects {
+  display: flex;
+  width: 80rem;
+  justify-content: space-evenly;
+}
+
+.project_section {
+  width: 50rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: stretch;
+  grid-gap: 5rem;
+}

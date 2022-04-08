@@ -1,14 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { myprojects } from "../myDatabase/myDatabase2";
 import "./MyProjects.css";
-const tools = ["All",...new Set(myprojects.map((data) => data.ProjectType))];
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+const tools = ["All", ...new Set(myprojects.map((data) => data.ProjectType))];
 const MyProjects = () => {
   const [activeTools, setActiveTools] = useState("All");
   const [data, setData] = useState(myprojects);
+
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
   const onClickHandler = (item) => {
     if (item === "All") {
       setData(myprojects);
-    }else{
+    } else {
       const filteredData = myprojects.filter((i) => i.ProjectType === item);
       setData(filteredData);
     }
@@ -24,11 +31,12 @@ const MyProjects = () => {
         ))}
       </ul>
 
-      <div className="project_section">
+      <div className="project_section" data-aos="fade-right">
         {data.map((item, id) => {
           return (
             <div className="ProjectLists" key={id}>
-              <h2>{item.ProjectName}</h2><br/>
+              <h2>{item.ProjectName}</h2>
+              <br />
               <a href={item.ProjectLink} target="_blank">
                 <img src={item.ProjectImage} width="120rem" />
               </a>

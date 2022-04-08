@@ -2,18 +2,23 @@ div.SocialMedia {
   display: flex;
   justify-content: center;
   height: 10rem;
+  margin: 2rem 0px;
 }
 .MyContacts {
  
+border-radius: 5px;
   display: flex;
   flex-direction: column;
   width: 15rem;
+  
   align-items: center;
   justify-content: center;
   background-color:#0000008f;
   color: white;
-  border-top: 4px solid red;
-  border-bottom: 4px solid yellow;
+  
+  
+  border-top: 10px solid red;
+  border-bottom: 10px solid black;
 }
 .MyContacts span {
     margin: 20px 0px;

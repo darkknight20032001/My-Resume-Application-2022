@@ -1,4 +1,10 @@
+h1.Education{
+  border-bottom: 7px solid rgb(53, 53, 219);
+  border-radius: 10%;
 
+  width: 10rem;
+  margin: 0px auto;
+}
 .myInfo {
   display: flex;
   align-items: center;
@@ -10,9 +16,9 @@
 .myInfo h3 {
   width: 30rem;
   padding: 4rem;
-  color: darkcyan;
-
-font-family: 'Anton', sans-serif;
+  color: white;
+text-shadow: 0px 0px 10px darkblue;
+font-family:Arial, Helvetica, sans-serif;
   margin-right: 1rem;
 }
 .credentials {
@@ -48,16 +54,20 @@ font-family: 'Anton', sans-serif;
 }
 .MyInformation{
   padding: 20px;
- border-top: 6px solid yellow; 
+ border-top: 6px solid white; 
  border-bottom: 6px solid red; 
-  background-color:black;
+  
   width: 20rem;
   border-radius: 10px;
-  
+  box-shadow: 0px 0px 10px black;
+  margin: 20px 0px;
 }
 .MyInformation h3{
   color: white;
   text-shadow: 0px 0px 10px red;
+}
+.MyInformation p{
+  color: white;
 }
 .MyInformation span{
   color: white;
@@ -74,8 +84,12 @@ font-family: 'Anton', sans-serif;
 .MySkillsWrap {
   margin: 2rem 0px 0px 0px;
 }
+.MySkills h3{
+  color: white;
+}
 .skills {
-  border: 2px solid rebeccapurple;
+  border: 2px solid black;
+  
   width: 50%;
   height: 10px;
   border-radius: 15px;
@@ -85,7 +99,7 @@ font-family: 'Anton', sans-serif;
 .skills div {
   height: 100%;
   border-radius: 15px;
-  background-color: red;
+  background-color: yellow;
 }
 h1.skills_head {
   text-align: center;

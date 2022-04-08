@@ -1,17 +1,30 @@
 .navbar {
   display: flex;
   align-items: center;
-  border: 2px solid red;
+ padding: 10px;
   justify-content: space-evenly;
+  background-color: black;
 }
 .navbar li {
   list-style: none;
   border: 2px solid black;
   padding: 10px;
+  box-shadow: 0px 0px 10px white;
+  border-radius: 10px;
+  cursor: pointer;
+
 }
 .navbar li a {
   text-decoration: none;
+  color: white;
+  text-shadow: 0px 0px 10px yellow;
 }
+
+.navbar li:hover{
+  box-shadow: 0px 0px 10px yellow; ;
+}
+  
+
 .burger {
   position: fixed;
   top: 0.3rem;

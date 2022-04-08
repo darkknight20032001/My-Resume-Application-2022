@@ -1,8 +1,14 @@
 ul.ProjectLists {
   display: flex;
   justify-content: space-evenly;
-
+text-shadow: 0px 0px 10px paleturquoise;
   margin: 3rem 0px;
+  color: white;
+}
+ul.ProjectLists li{
+  box-shadow: 0px 0px 10px plum;
+  width: 7rem;
+  text-align: center;
 }
 div.ProjectLists {
   border: 2px solid black;
@@ -18,6 +24,7 @@ ul.ProjectLists li {
   list-style: none;
   border: 2px solid black;
   padding: 10px;
+  cursor: pointer;
 }
 .AllProjects {
   display: flex;

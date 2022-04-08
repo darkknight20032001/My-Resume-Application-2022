@@ -1,19 +1,37 @@
-form {
- margin: 30px 0px 0px 0px;
+form 
+{
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px blue;
+  margin: 30px 0px 0px 0px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 20rem;
-}
-input {
+  height: 25rem;
+  background-color: rebeccapurple;
+  
+  width: 30rem;
+  margin: 10rem auto;
   padding: 10px;
-  margin: 10px 0px;
 }
-textarea {
+input 
+{
+  padding: 10px;
+  margin: 20px 0px;
+  background-color: white;
+  border-top: 5px solid purple;
+  border-bottom: 5px solid black;
+  border-radius: 10px;
+}
+textarea 
+{
   width: 20rem;
+  padding: 10px;
   height: 5rem;
+  border-radius: 10px;
+  border: 2px solid black;
 }
-button.Form {
+button.Form 
+{
   padding: 10px;
   width: 2.5rem;
   height: 2.5rem;

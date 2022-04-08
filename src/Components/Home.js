@@ -1,7 +1,7 @@
 import React from "react";
 import myDatabase from "../myDatabase/myDatabase";
 import Image from "./Image";
-import { Link } from "react-router-dom";
+
 import TypeWriter from "./TypeWriter";
 import MyLinks from "./MyLinks";
 import "./Home.css";

@@ -15,7 +15,11 @@ const MyLinks = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img title={myLinks[0].ChannelName} src={myLinks[0].ChannelImage} />
+        <img
+          title={myLinks[0].ChannelName}
+          src={myLinks[0].ChannelImage}
+          alt=""
+        />
       </a>
       <a
         className={Check ? `c2-active` : `c2`}
@@ -23,7 +27,11 @@ const MyLinks = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img src={myLinks[1].ChannelImage} title={myLinks[1].ChannelName} />
+        <img
+          src={myLinks[1].ChannelImage}
+          title={myLinks[1].ChannelName}
+          alt=""
+        />
       </a>
       <button className="btn" type="submit" onClick={MyLinksHandler}>
         {Check ? `x` : `+`}
@@ -34,8 +42,13 @@ const MyLinks = () => {
         href={myLinks[2].ChannelLink}
         target="_blank"
         rel="noreferrer"
+        alt=""
       >
-        <img src={myLinks[2].ChannelImage} title={myLinks[2].ChannelName} />
+        <img
+          src={myLinks[2].ChannelImage}
+          title={myLinks[2].ChannelName}
+          alt=""
+        />
       </a>
 
       <a
@@ -43,8 +56,13 @@ const MyLinks = () => {
         href={myLinks[3].ChannelLink}
         target="_blank"
         rel="noreferrer"
+        alt=""
       >
-        <img src={myLinks[3].ChannelImage} title={myLinks[3].ChannelName} />
+        <img
+          src={myLinks[3].ChannelImage}
+          title={myLinks[3].ChannelName}
+          alt=""
+        />
       </a>
     </div>
   );

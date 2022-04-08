@@ -4,6 +4,7 @@ import cars3 from "./cars3.jpg";
 import cars4 from "./cars4.jpg";
 import cars5 from "./cars5.jpg";
 import cars6 from "./cars6.jpg";
+import cars7 from "./cars7.jpg";
 import gmail_logo from "../Components/gmail_logo.jpg";
 import whatsapp_logo from "../Components/whatsapp_logo.jpg";
 import telegram_logo from "../Components/telegram_logo.jpg";
@@ -55,8 +56,7 @@ const myprojects = [
   {
     ProjectIndex: 1,
     ProjectName: "MY RESUME APP 2022",
-    ProjectLink:
-      "https://funny-longma-8bedf6.netlify.app/",
+    ProjectLink: "https://funny-longma-8bedf6.netlify.app/",
     ProjectImage: cars1,
     ProjectType: "ReactJS",
   },
@@ -112,7 +112,7 @@ const myprojects = [
     ProjectName: "STATIC-MUSIC-ALBUM",
     ProjectLink:
       "https://github.com/darkknight20032001/RaVerZZ-Music-Player.git",
-    ProjectImage: cars5,
+    ProjectImage: cars7,
     ProjectType: "Javascript",
   },
 ];

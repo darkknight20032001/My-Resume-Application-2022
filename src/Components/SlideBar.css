@@ -3,33 +3,41 @@
   align-items: center;
   border: 2px solid red;
   justify-content: space-evenly;
-  
 }
 .navbar li {
   list-style: none;
   border: 2px solid black;
   padding: 10px;
 }
-.navbar li a{
+.navbar li a {
   text-decoration: none;
 }
-.burger{
-    position: fixed;
-    top: 0.3rem;
-    right: 2rem;
+.burger {
+  position: fixed;
+  top: 0.3rem;
+  right: 2rem;
 }
 
-.burger div{  
-    height: 5px;
-    width: 2.1rem;
-    margin-top: 8px;
-    background-color: black;
+.burger div {
+  height: 5px;
+  width: 2.1rem;
+  margin-top: 8px;
+  background-color: black;
 }
 
-@media screen and (max-width: 750px){
-    .navbar{
-        flex-direction: column;
-        min-height: 100vh;
-        display: none;
-    }
+@media screen and (max-width: 750px) {
+  .navbar li.navbar {
+    flex-direction: column;
+    min-height: 100vh;
+    display: none;
+  }
+  .navbar .burger {
+    position: relative;
+    left: 2rem;
+    top: -2px;
+  }
+  .ul-toggle {
+    border: 2px solid black;
+    margin: 10px -2rem ;
+  }
 }

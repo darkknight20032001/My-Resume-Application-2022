@@ -55,7 +55,7 @@ const myprojects = [
     ProjectIndex: 1,
     ProjectName: "MY RESUME APP 2022",
     ProjectLink:
-      "https://github.com/darkknight20032001/My-Resume-Application-2022.git",
+      "https://funny-longma-8bedf6.netlify.app/",
     ProjectImage: cars1,
     ProjectType: "ReactJS",
   },

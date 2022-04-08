@@ -79,7 +79,7 @@ const myprojects = [
     ProjectName: "RAVERZZ MUSIC SYSTEM",
     ProjectLink:
       "https://github.com/darkknight20032001/Music-Player-ReactJS.git",
-    ProjectImage: cars3,
+    ProjectImage: cars4,
     ProjectType: "ReactJS",
   },
   {

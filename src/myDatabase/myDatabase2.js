@@ -1,5 +1,4 @@
 import cars1 from "./cars1.jpg";
-import cars2 from "./cars2.jpg";
 import cars3 from "./cars3.jpg";
 import cars4 from "./cars4.jpg";
 import cars5 from "./cars5.jpg";

@@ -105,7 +105,7 @@ const myprojects = [
     ProjectName: "KAUN BANEGA CROREPATI",
     ProjectLink:
       "https://github.com/darkknight20032001/Kaun-Banega-Crorepati.git",
-    ProjectImage: cars5,
+    ProjectImage: cars1,
     ProjectType: "Javascript",
   },
   {

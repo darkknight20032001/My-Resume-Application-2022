@@ -64,14 +64,14 @@ const myprojects = [
     ProjectName: "RaverZZ Chatship App",
     ProjectLink:
       "https://github.com/darkknight20032001/RaverZZ-Chatship-2022.git",
-    ProjectImage: cars1,
+    ProjectImage: cars2,
     ProjectType: "ReactJS",
   },
   {
     ProjectIndex: 3,
     ProjectName: "CARE FOR YOU 2022",
     ProjectLink: "https://github.com/darkknight20032001/CARE-FOR-YOU-2022.git",
-    ProjectImage: cars2,
+    ProjectImage: cars3,
     ProjectType: "ReactJS",
   },
   {

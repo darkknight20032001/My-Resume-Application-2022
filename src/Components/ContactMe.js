@@ -9,7 +9,7 @@ const ContactMe = () => {
         {MyContacts.map((contact, id) => {
           return (
             <div className="MyContacts" key={id}>
-              <img src={contact.ContactLogo} width="50px" />
+              <img src={contact.ContactLogo} width="50px" alt="hi" />
               <span>{contact.ContactName}</span>
             </div>
           );

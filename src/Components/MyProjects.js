@@ -6,7 +6,6 @@ import "aos/dist/aos.css";
 
 const tools = ["All", ...new Set(myprojects.map((data) => data.ProjectType))];
 const MyProjects = () => {
-  const [activeTools, setActiveTools] = useState("All");
   const [data, setData] = useState(myprojects);
 
   useEffect(() => {
@@ -38,7 +37,7 @@ const MyProjects = () => {
               <h2>{item.ProjectName}</h2>
               <br />
               <a href={item.ProjectLink} target="_blank">
-                <img src={item.ProjectImage} width="120rem" />
+                <img src={item.ProjectImage} width="120rem" alt="hi" />
               </a>
             </div>
           );

@@ -13,6 +13,7 @@ const MyLinks = () => {
         className={Check ? `c1-active` : `c1`}
         href={myLinks[0].ChannelLink}
         target="_blank"
+        rel="noreferrer"
       >
         <img title={myLinks[0].ChannelName} src={myLinks[0].ChannelImage} />
       </a>
@@ -20,6 +21,7 @@ const MyLinks = () => {
         className={Check ? `c2-active` : `c2`}
         href={myLinks[1].ChannelLink}
         target="_blank"
+        rel="noreferrer"
       >
         <img src={myLinks[1].ChannelImage} title={myLinks[1].ChannelName} />
       </a>
@@ -31,6 +33,7 @@ const MyLinks = () => {
         className={Check ? `c3-active` : `c3`}
         href={myLinks[2].ChannelLink}
         target="_blank"
+        rel="noreferrer"
       >
         <img src={myLinks[2].ChannelImage} title={myLinks[2].ChannelName} />
       </a>
@@ -39,6 +42,7 @@ const MyLinks = () => {
         className={Check ? `c5-active` : `c5`}
         href={myLinks[3].ChannelLink}
         target="_blank"
+        rel="noreferrer"
       >
         <img src={myLinks[3].ChannelImage} title={myLinks[3].ChannelName} />
       </a>

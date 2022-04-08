@@ -1,4 +1,4 @@
-import myProfilePic from "./myProfilePic.jpg";
+import myProfilePic from "./myProfilePic.jpeg";
 import github from "./github.jpg";
 import hackerrank from "./hackerrank.jpg";
 import leetcode from "./leetcode.jpg";

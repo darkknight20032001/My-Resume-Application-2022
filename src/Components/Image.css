@@ -4,4 +4,5 @@ img.MyProfilePic{
     height: 13rem;
     border-radius: 50%;
 border: 10px solid black;
+box-shadow: 0px 0px 20px red;
 }

@@ -5,6 +5,7 @@ import cars4 from "./cars4.jpg";
 import cars5 from "./cars5.jpg";
 import cars6 from "./cars6.jpg";
 import cars7 from "./cars7.jpg";
+import cars8 from "./cars8.jpg";
 import gmail_logo from "../Components/gmail_logo.jpg";
 import whatsapp_logo from "../Components/whatsapp_logo.jpg";
 import telegram_logo from "../Components/telegram_logo.jpg";
@@ -65,7 +66,7 @@ const myprojects = [
     ProjectName: "RaverZZ Chatship App",
     ProjectLink:
       "https://github.com/darkknight20032001/RaverZZ-Chatship-2022.git",
-    ProjectImage: cars2,
+    ProjectImage: cars8,
     ProjectType: "ReactJS",
   },
   {

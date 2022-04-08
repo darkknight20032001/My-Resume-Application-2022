@@ -87,7 +87,7 @@ const myprojects = [
     ProjectName: "CERTIFICATE GENERATION MACHINE",
     ProjectLink:
       "https://github.com/darkknight20032001/Certificate-Generation-Machine-2022.git",
-    ProjectImage: cars4,
+    ProjectImage: cars5,
     ProjectType: "ReactJS",
   },
   {
@@ -95,7 +95,7 @@ const myprojects = [
     ProjectName: "SIMPLE CALCULATOR",
     ProjectLink:
       "https://github.com/darkknight20032001/Simple-Calculator-2022.git",
-    ProjectImage: cars5,
+    ProjectImage: cars6,
     ProjectType: "ReactJS",
   },
   {

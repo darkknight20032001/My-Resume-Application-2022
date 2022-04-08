@@ -1,24 +1,28 @@
 ul.ProjectLists {
   display: flex;
   justify-content: space-evenly;
-text-shadow: 0px 0px 10px paleturquoise;
+  text-shadow: 0px 0px 10px paleturquoise;
   margin: 3rem 0px;
   color: white;
+  
 }
-ul.ProjectLists li{
+
+ul.ProjectLists li {
   box-shadow: 0px 0px 10px plum;
   width: 7rem;
   text-align: center;
+  
+  
 }
 div.ProjectLists {
-  border: 2px solid black;
+  
   text-align: center;
   height: 20rem;
-  width: 15rem;
-  background-color: black;
+  width: 20rem;
+  background-color: #ffffff40;
   color: white;
-  padding:10px;
-  text-shadow: 0px 0px 40px yellow;
+ box-shadow: 0px 0px 20px red;
+  text-shadow: 0px 0px 10px black;
 }
 ul.ProjectLists li {
   list-style: none;
@@ -38,5 +42,15 @@ ul.ProjectLists li {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: stretch;
-  grid-gap: 5rem;
+  grid-gap: 7rem;
+  
+  margin: 0px 10rem ;
+  width: 70rem;
+  justify-content: center;
+}
+div.ProjectLists img {
+  border: 2px solid red;
+  height: 15rem;
+  width: 14rem;
+  margin: 10px 0px;
 }

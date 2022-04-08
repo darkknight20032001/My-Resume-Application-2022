@@ -35,7 +35,7 @@ const MyProjects = () => {
           return (
             <div className="ProjectLists" key={id}>
               <h2>{item.ProjectName}</h2>
-              <br />
+              
               <a href={item.ProjectLink} target="_blank" rel="noreferrer" >
                 <img src={item.ProjectImage} width="120rem" alt="hi" />
               </a>

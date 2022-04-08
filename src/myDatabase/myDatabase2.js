@@ -53,38 +53,66 @@ const mySkills = [
 const myprojects = [
   {
     ProjectIndex: 1,
-    ProjectName: "My Music Player",
-    ProjectLink: "https://en.wikipedia.org/wiki/Sachin_Tendulkar",
+    ProjectName: "MY RESUME APP 2022",
+    ProjectLink:
+      "https://github.com/darkknight20032001/My-Resume-Application-2022.git",
     ProjectImage: cars1,
-    ProjectType: "Javascript",
+    ProjectType: "ReactJS",
   },
   {
     ProjectIndex: 2,
-    ProjectName: "KBC GAME",
-    ProjectLink: "https://en.wikipedia.org/wiki/Virender_Sehwag",
-    ProjectImage: cars2,
-    ProjectType: "Javascript",
+    ProjectName: "RaverZZ Chatship App",
+    ProjectLink:
+      "https://github.com/darkknight20032001/RaverZZ-Chatship-2022.git",
+    ProjectImage: cars1,
+    ProjectType: "ReactJS",
   },
   {
     ProjectIndex: 3,
-    ProjectName: "Care For you",
-    ProjectLink: "https://en.wikipedia.org/wiki/Gautam_Gambhir",
-    ProjectImage: cars3,
+    ProjectName: "CARE FOR YOU 2022",
+    ProjectLink: "https://github.com/darkknight20032001/CARE-FOR-YOU-2022.git",
+    ProjectImage: cars2,
     ProjectType: "ReactJS",
   },
   {
     ProjectIndex: 4,
-    ProjectName: "Certificate Generator",
-    ProjectLink: "https://en.wikipedia.org/wiki/Yuvraj_Singh",
-    ProjectImage: cars4,
+    ProjectName: "RAVERZZ MUSIC SYSTEM",
+    ProjectLink:
+      "https://github.com/darkknight20032001/Music-Player-ReactJS.git",
+    ProjectImage: cars3,
     ProjectType: "ReactJS",
   },
   {
     ProjectIndex: 5,
-    ProjectName: "Simple Calculator",
-    ProjectLink: "https://en.wikipedia.org/wiki/Virat_Kohli",
+    ProjectName: "CERTIFICATE GENERATION MACHINE",
+    ProjectLink:
+      "https://github.com/darkknight20032001/Certificate-Generation-Machine-2022.git",
+    ProjectImage: cars4,
+    ProjectType: "ReactJS",
+  },
+  {
+    ProjectIndex: 6,
+    ProjectName: "SIMPLE CALCULATOR",
+    ProjectLink:
+      "https://github.com/darkknight20032001/Simple-Calculator-2022.git",
     ProjectImage: cars5,
     ProjectType: "ReactJS",
+  },
+  {
+    ProjectIndex: 7,
+    ProjectName: "KAUN BANEGA CROREPATI",
+    ProjectLink:
+      "https://github.com/darkknight20032001/Kaun-Banega-Crorepati.git",
+    ProjectImage: cars5,
+    ProjectType: "Javascript",
+  },
+  {
+    ProjectIndex: 8,
+    ProjectName: "STATIC-MUSIC-ALBUM",
+    ProjectLink:
+      "https://github.com/darkknight20032001/RaVerZZ-Music-Player.git",
+    ProjectImage: cars5,
+    ProjectType: "Javascript",
   },
 ];
 const MyContacts = [

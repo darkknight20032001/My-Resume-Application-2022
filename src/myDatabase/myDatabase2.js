@@ -3,6 +3,7 @@ import cars2 from "./cars2.jpg";
 import cars3 from "./cars3.jpg";
 import cars4 from "./cars4.jpg";
 import cars5 from "./cars5.jpg";
+import cars6 from "./cars6.jpg";
 import gmail_logo from "../Components/gmail_logo.jpg";
 import whatsapp_logo from "../Components/whatsapp_logo.jpg";
 import telegram_logo from "../Components/telegram_logo.jpg";

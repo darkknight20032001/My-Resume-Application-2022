@@ -1,4 +1,5 @@
 import cars1 from "./cars1.jpg";
+import cars2 from "./cars2.jpg";
 import cars3 from "./cars3.jpg";
 import cars4 from "./cars4.jpg";
 import cars5 from "./cars5.jpg";
@@ -104,7 +105,7 @@ const myprojects = [
     ProjectName: "KAUN BANEGA CROREPATI",
     ProjectLink:
       "https://github.com/darkknight20032001/Kaun-Banega-Crorepati.git",
-    ProjectImage: cars1,
+    ProjectImage: cars2,
     ProjectType: "Javascript",
   },
   {
